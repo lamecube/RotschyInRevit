@@ -1,15 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\CS",
-    "\\CS\\APIUtility",
-    "\\CS\\DockingSetupDialog",
-    "\\CS\\ExternalEvents",
-    "\\CS\\MainPage",
-    "\\CS\\Resources",
-    "\\CS\\TopLevelCommands",
-    "\\CS\\Utility"
+    ""
   ],
-  "SelectedNode": "\\CS\\DockingSetupDialog\\DockingSetupDialog.xaml.cs",
+  "SelectedNode": "\\RevitApp.sln",
   "PreviewInSolutionExplorer": false
 }

@@ -84,7 +84,6 @@
     <Content Include="RevitApp\Resources\Hide.png" />
     <Content Include="RevitApp\Resources\Register.png" />
     <Content Include="RevitApp\Resources\Show.png" />
-    <Content Include="RevitApp\RevitApp.csproj.user" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".github\workflows\dotnet.yml" />
