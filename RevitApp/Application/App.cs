@@ -70,6 +70,18 @@ namespace RevitApp
           PushButton pushButtonHidePage = panel.AddItem(pushButtonHidePageData) as PushButton;
           pushButtonHidePage.AvailabilityClassName = typeof(ExternalCommandHidePage).FullName;
 
+          // Make me a noter set of buttons
+          //
+          PushButtonData pushButtonNoterSetData = new PushButtonData(Globals.NoterSet, Globals.NoterSet, FileUtility.GetAssemblyFullName(), typeof(ExternalCommandNoterSet).FullName);
+          pushButtonNoterSetData.LargeImage = new BitmapImage(new Uri(FileUtility.GetApplicationResourcesPath() + "NoterSet.png"));
+          PushButton pushButtonNoterSet = panel.AddItem(pushButtonNoterSetData) as PushButton;
+          pushButtonNoterSet.AvailabilityClassName = typeof(ExternalCommandNoterSet).FullName;
+
+          PushButtonData pushButtonNoterGetData = new PushButtonData(Globals.NoterGet, Globals.NoterGet, FileUtility.GetAssemblyFullName(), typeof(ExternalCommandNoterGet).FullName);
+          pushButtonNoterGetData.LargeImage = new BitmapImage(new Uri(FileUtility.GetApplicationResourcesPath() + "NoterGet.png"));
+          PushButton pushButtonNoterGet = panel.AddItem(pushButtonNoterGetData) as PushButton;
+          pushButtonNoterGet.AvailabilityClassName = typeof(ExternalCommandNoterGet).FullName;
+
           return Result.Succeeded;
        }
 
